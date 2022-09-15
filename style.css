@@ -70,16 +70,16 @@ section p {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 24px;
     gap: 16px;
 }
 ul li {
-    transition: transform .3s;
+    transition: transform .3s; 
 }
 ul li:hover {
     transform: scale(1.1);
 }
-
 .games-list img {
     width: 90px;
     border-radius: 8px;
