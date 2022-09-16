@@ -75,7 +75,7 @@ ul {
     gap: 16px;
 }
 ul li {
-    transition: transform .3s; 
+    transition: transform .3s;
 }
 ul li:hover {
     transform: scale(1.1);
@@ -94,7 +94,7 @@ ul li:hover {
 /* animation*/
 
 header div {
-    animation: fromTop .7s .4s backwards; /*animação, tempo e delay*/
+    animation: fromTop .7s .2s backwards; /*animação, tempo e delay*/
 }
 main section {
     animation: fromBottom .7s backwards;
@@ -103,10 +103,10 @@ main section:nth-child(1){
     animation-delay: 0;
 }
 main section:nth-child(2){
-    animation-delay: .4s;
+    animation-delay: .3s;
 }
 main section:nth-child(3){
-    animation-delay: .8s;
+    animation-delay: .6s;
 }
 
 @keyframes fromTop {
